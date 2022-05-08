@@ -104,7 +104,7 @@ void loop() {
   
   // put your main code here, to run repeatedly:
   buttonState = digitalRead(buttonPin);
-  if (buttonState == LOW) {
+  if (buttonState == HIGH) {
     credits();
   }
   // citesc pulse width pt rosu
